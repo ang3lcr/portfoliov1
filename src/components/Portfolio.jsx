@@ -1,19 +1,19 @@
 
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import reactEcommerce from "../assets/portfolio/reactEcommerce.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import reactWeather from "../assets/portfolio/reactWeather.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      demo: "www.google.com",
-      code: "www.google.com",
+      src: reactEcommerce,
+      demo: "https://magnificent-puppy-b6037d.netlify.app/#/",
+      code: "https://github.com/ang3lcr/ecommerce2",
     },
     {
       id: 2,
@@ -42,8 +42,8 @@ const Portfolio = () => {
     {
       id: 6,
       src: reactWeather,
-      demo: "www.google.com",
-      code: "www.google.com",
+      demo: "https://sensational-torrone-83132d.netlify.app/",
+      code: "https://github.com/ang3lcr/weatherAppV2",
     },
   ];
 
