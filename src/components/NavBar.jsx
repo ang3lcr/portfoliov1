@@ -14,19 +14,19 @@ const NavBar = () => {
         },
         {
             id: 2,
-            link: 'sobre mi'
+            link: 'about me'
         },
         {
             id: 3,
-            link: 'proyectos'
+            link: 'projects'
         },
         {
             id: 4,
-            link: 'experiencia'
+            link: 'experience'
         },
         {
             id: 4,
-            link: 'contacto'
+            link: 'contact'
         },
     ]
   return (
