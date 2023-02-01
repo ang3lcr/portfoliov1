@@ -15,32 +15,9 @@ const Portfolio = () => {
       demo: "https://magnificent-puppy-b6037d.netlify.app/#/",
       code: "https://github.com/ang3lcr/ecommerce2",
     },
+    
     {
       id: 2,
-      src: reactParallax,
-      demo: "www.google.com",
-      code: "www.google.com",
-    },
-    {
-      id: 3,
-      src: navbar,
-      demo: "www.google.com",
-      code: "www.google.com",
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-      demo: "www.google.com",
-      code: "www.google.com",
-    },
-    {
-      id: 5,
-      src: installNode,
-      demo: "www.google.com",
-      code: "www.google.com",
-    },
-    {
-      id: 6,
       src: reactWeather,
       demo: "https://sensational-torrone-83132d.netlify.app/",
       code: "https://github.com/ang3lcr/weatherAppV2",
