@@ -6,6 +6,9 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.png";
+import shalomApi from '../assets/portfolio/shalomApi.png'
+import shalomEcommerce from '../assets/portfolio/shalomEcommerce.png'
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,11 +25,23 @@ const Portfolio = () => {
       demo: "https://sensational-torrone-83132d.netlify.app/",
       code: "https://github.com/ang3lcr/weatherAppV2",
     },
+    {
+      id: 3,
+      src: shalomEcommerce,
+      demo: "https://shalomecommerce.netlify.app/",
+      code: "https://github.com/ang3lcr/shalomCLIENT",
+    },
+    {
+      id: 4,
+      src: shalomApi,
+      demo: "https://shalomecommerce.netlify.app/",
+      code: "https://github.com/ang3lcr/shalomAPI",
+    },
   ];
 
   return (
     <div
-      name="proyectos"
+      name="projects"
       className="bg-gradient-to-b from-gray-900 to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
