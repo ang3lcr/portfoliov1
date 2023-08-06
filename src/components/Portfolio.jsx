@@ -1,13 +1,8 @@
 
 import React from "react";
 import reactEcommerce from "../assets/portfolio/reactEcommerce.png";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.png";
-import shalomApi from '../assets/portfolio/shalomApi.png'
-import shalomEcommerce from '../assets/portfolio/shalomEcommerce.png'
+import marrosaTravel from "../assets/portfolio/marrosaTravel.jpg"
 
 
 const Portfolio = () => {
@@ -26,17 +21,11 @@ const Portfolio = () => {
       code: "https://github.com/ang3lcr/weatherAppV2",
     },
     {
-      id: 3,
-      src: shalomEcommerce,
-      demo: "https://shalomecommerce.netlify.app/",
-      code: "https://github.com/ang3lcr/shalomCLIENT",
-    },
-    {
-      id: 4,
-      src: shalomApi,
-      demo: "https://shalomecommerce.netlify.app/",
-      code: "https://github.com/ang3lcr/shalomAPI",
-    },
+      id: 3, 
+      src: marrosaTravel,
+      demo: "https://marrosatravel.netlify.app/",
+      code: "https://github.com/ang3lcr/marrosaTravel",
+    }
   ];
 
   return (
